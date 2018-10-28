@@ -1,8 +1,8 @@
 # Instructions 
 
-- **Add access key and secret keys in your AWS profile or pass variables
+- Add access key and secret keys in your AWS profile or pass variables
 
-- **Execute the following command to make sure you have properly configured AWS profile 
+- Execute the following command to make sure you have properly configured AWS profile 
 
 ```
 $ aws configure list
