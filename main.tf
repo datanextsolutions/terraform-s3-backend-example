@@ -17,5 +17,10 @@ terraform {
     bucket = "datanextapps"
     key    = "terraform/dev/terraform_dev.tfstate"
     region = "us-east-1"
+
+    # while working in team locking is important
+    # use your table name
+    dynamodb_table = "terraform_remote_locks"
+    encrypt        = true
   }
 }
